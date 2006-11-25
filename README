@@ -1,0 +1,36 @@
+NAME
+    Bundle::Perl::Critic - A CPAN bundle for Perl::Critic and related
+    modules
+
+SYNOPSIS
+      perl -MCPAN -e 'install Bundle::Perl::Critic'
+
+DESCRIPTION
+    This is a CPAN bundle file for installing Perl::Critic,
+    Test::Perl::Critic, <criticism> and several Policy plugin modules, along
+    with all their dependencies.
+
+CONTENTS
+        Perl::Critic
+
+        Test::Perl::Critic
+
+        Perl::Critic::More
+
+        Perl::Critic::Bangs
+
+        Perl::Critic::Lax
+
+        criticism
+
+AUTHOR
+    Jeffrey Ryan Thalhammer <thaljef@cpan.org>
+
+COPYRIGHT
+    Copyright (c) 2005-2006 Jeffrey Ryan Thalhammer. All rights reserved.
+
+    This program is free software; you can redistribute it and/or modify it
+    under the same terms as Perl itself. The full text of this license can
+    be found in the LICENSE file included with this module. =head1 COPYRIGHT
+    AND LICENSE
+

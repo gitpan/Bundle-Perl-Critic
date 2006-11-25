@@ -1,0 +1,15 @@
+###############################################################################
+#      $URL: http://perlcritic.tigris.org/svn/perlcritic/trunk/Perl-Critic/bin/perlcritic $
+#     $Date: 2006-11-21 20:46:27 -0800 (Tue, 21 Nov 2006) $
+#   $Author: thaljef $
+# $Revision: 909 $
+#        ex: set ts=8 sts=4 sw=4 expandtab :
+##############################################################################
+
+This distribution is a CPAN bundle for Perl-Critic and related
+modules.  It does not contain any code.  Rather, it just contains a
+magical list of modules that the CPAN.pm utility knows how to deal
+with.  To install, give this command:
+
+  perl -MCPAN -e 'install Bundle::Perl::Critic'
+

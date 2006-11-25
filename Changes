@@ -1,0 +1,18 @@
+#######################################################################
+#      $URL: http://perlcritic.tigris.org/svn/perlcritic/trunk/Perl-Critic/Build
+.PL $
+#     $Date: 2006-11-15 10:18:23 -0800 (Wed, 15 Nov 2006) $
+#   $Author: chrisdolan $
+# $Revision: 868 $
+########################################################################
+
+[0.01] Released on 2006-11-25
+
+     Initial release.  Contains the following modules:
+
+     * Perl::Critic
+     * Test::Perl::Critic
+     * Perl::Critic::More
+     * Perl::Critic::Bangs
+     * Perl::Critic::Lax
+     * criticism
