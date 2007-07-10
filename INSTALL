@@ -1,8 +1,8 @@
 ###############################################################################
-#      $URL: http://perlcritic.tigris.org/svn/perlcritic/trunk/Perl-Critic/bin/perlcritic $
-#     $Date: 2006-11-21 20:46:27 -0800 (Tue, 21 Nov 2006) $
+#      $URL: http://perlcritic.tigris.org/svn/perlcritic/tags/Bundle-Perl-Critic-0.02/INSTALL $
+#     $Date: 2007-07-09 23:48:45 -0700 (Mon, 09 Jul 2007) $
 #   $Author: thaljef $
-# $Revision: 909 $
+# $Revision: 1757 $
 #        ex: set ts=8 sts=4 sw=4 expandtab :
 ##############################################################################
 

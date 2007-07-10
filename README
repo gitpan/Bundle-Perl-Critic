@@ -15,11 +15,17 @@ CONTENTS
 
         Test::Perl::Critic
 
+        Test::Perl::Critic::Progressive
+
         Perl::Critic::More
 
         Perl::Critic::Bangs
 
         Perl::Critic::Lax
+
+        Perl::Critic::StricterSubs
+
+        Perl::Critic::Swift
 
         criticism
 
@@ -27,7 +33,7 @@ AUTHOR
     Jeffrey Ryan Thalhammer <thaljef@cpan.org>
 
 COPYRIGHT
-    Copyright (c) 2005-2006 Jeffrey Ryan Thalhammer. All rights reserved.
+    Copyright (c) 2005-2007 Jeffrey Ryan Thalhammer. All rights reserved.
 
     This program is free software; you can redistribute it and/or modify it
     under the same terms as Perl itself. The full text of this license can

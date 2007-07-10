@@ -1,10 +1,18 @@
 #######################################################################
-#      $URL: http://perlcritic.tigris.org/svn/perlcritic/trunk/Perl-Critic/Build
-.PL $
-#     $Date: 2006-11-15 10:18:23 -0800 (Wed, 15 Nov 2006) $
-#   $Author: chrisdolan $
-# $Revision: 868 $
+#      $URL: http://perlcritic.tigris.org/svn/perlcritic/tags/Bundle-Perl-Critic-0.02/Changes $
+#     $Date: 2007-07-09 23:48:45 -0700 (Mon, 09 Jul 2007) $
+#   $Author: thaljef $
+# $Revision: 1757 $
 ########################################################################
+
+
+[0.02] Released on 2007-07-09
+
+     Added new Perl-Critic modules:
+
+     * Perl::Critic::Swift
+     * Perl::Critic::StricterSubs
+     * Test::Perl::Critic::Progressive
 
 [0.01] Released on 2006-11-25
 

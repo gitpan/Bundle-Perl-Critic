@@ -1,8 +1,8 @@
 #######################################################################
-#      $URL: http://perlcritic.tigris.org/svn/perlcritic/trunk/Perl-Critic/Makefile.PL $
-#     $Date: 2006-11-19 10:13:49 -0800 (Sun, 19 Nov 2006) $
+#      $URL: http://perlcritic.tigris.org/svn/perlcritic/tags/Bundle-Perl-Critic-0.02/lib/Bundle/Perl/Critic.pm $
+#     $Date: 2007-07-09 23:48:45 -0700 (Mon, 09 Jul 2007) $
 #   $Author: thaljef $
-# $Revision: 881 $
+# $Revision: 1757 $
 #        ex: set ts=8 sts=4 sw=4 expandtab :
 ########################################################################
 
@@ -11,7 +11,7 @@ package Bundle::Perl::Critic;
 use strict;
 use warnings;
 
-our $VERSION = 0.01;
+our $VERSION = 0.02;
 
 1;
 
@@ -20,6 +20,8 @@ __END__
 #-----------------------------------------------------------------------------
 
 =pod
+
+=for stopwords CPAN Thalhammer
 
 =head1 NAME
 
@@ -41,11 +43,17 @@ along with all their dependencies.
 
     Test::Perl::Critic
 
+    Test::Perl::Critic::Progressive
+
     Perl::Critic::More
 
     Perl::Critic::Bangs
 
     Perl::Critic::Lax
+
+    Perl::Critic::StricterSubs
+
+    Perl::Critic::Swift
 
     criticism
 
@@ -55,7 +63,7 @@ Jeffrey Ryan Thalhammer <thaljef@cpan.org>
 
 =head1 COPYRIGHT
 
-Copyright (c) 2005-2006 Jeffrey Ryan Thalhammer.  All rights reserved.
+Copyright (c) 2005-2007 Jeffrey Ryan Thalhammer.  All rights reserved.
 
 This program is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself.  The full text of this license
