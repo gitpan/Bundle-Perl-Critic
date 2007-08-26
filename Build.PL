@@ -1,8 +1,8 @@
 #######################################################################
-#      $URL: http://perlcritic.tigris.org/svn/perlcritic/tags/Bundle-Perl-Critic-0.02/Build.PL $
-#     $Date: 2007-07-09 23:48:45 -0700 (Mon, 09 Jul 2007) $
+#      $URL: http://perlcritic.tigris.org/svn/perlcritic/trunk/Bundle-Perl-Critic/Build.PL $
+#     $Date: 2007-07-10 01:42:15 -0500 (Tue, 10 Jul 2007) $
 #   $Author: thaljef $
-# $Revision: 1757 $
+# $Revision: 1753 $
 ########################################################################
 
 use strict;
@@ -13,6 +13,7 @@ my $builder = Module::Build->new(
   module_name    => 'Bundle::Perl::Critic',
   dist_author    => 'Jeffrey Thalhammer <thaljef@cpan.org>',
   dist_abstract  => 'A CPAN bundle for Perl::Critic and related modules',
+  dist_version   => '1.00',
   license        => 'perl',
 );
 

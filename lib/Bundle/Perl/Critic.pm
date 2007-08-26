@@ -1,8 +1,8 @@
 #######################################################################
-#      $URL: http://perlcritic.tigris.org/svn/perlcritic/tags/Bundle-Perl-Critic-0.02/lib/Bundle/Perl/Critic.pm $
-#     $Date: 2007-07-09 23:48:45 -0700 (Mon, 09 Jul 2007) $
-#   $Author: thaljef $
-# $Revision: 1757 $
+#      $URL: http://perlcritic.tigris.org/svn/perlcritic/trunk/Bundle-Perl-Critic/lib/Bundle/Perl/Critic.pm $
+#     $Date: 2007-07-30 11:45:21 -0500 (Mon, 30 Jul 2007) $
+#   $Author: clonezone $
+# $Revision: 1798 $
 #        ex: set ts=8 sts=4 sw=4 expandtab :
 ########################################################################
 
@@ -11,7 +11,7 @@ package Bundle::Perl::Critic;
 use strict;
 use warnings;
 
-our $VERSION = 0.02;
+our $VERSION = 1.00;
 
 1;
 
@@ -54,6 +54,8 @@ along with all their dependencies.
     Perl::Critic::StricterSubs
 
     Perl::Critic::Swift
+
+    Perl::Critic::Tics
 
     criticism
 

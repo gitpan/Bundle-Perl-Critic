@@ -27,6 +27,8 @@ CONTENTS
 
         Perl::Critic::Swift
 
+        Perl::Critic::Tics
+
         criticism
 
 AUTHOR
