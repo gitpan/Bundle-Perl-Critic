@@ -10,6 +10,10 @@ DESCRIPTION
     Test::Perl::Critic, <criticism> and several Policy plugin modules, along
     with all their dependencies.
 
+    In addition to the distributions included below, there is
+    Perl::Critic::Dynamic. This is not incorporated here because it actually
+    compiles code and is therefore potentially dangerous.
+
 CONTENTS
         Perl::Critic
 
@@ -22,6 +26,8 @@ CONTENTS
         Perl::Critic::Bangs
 
         Perl::Critic::Lax
+
+        Perl::Critic::Nits
 
         Perl::Critic::StricterSubs
 

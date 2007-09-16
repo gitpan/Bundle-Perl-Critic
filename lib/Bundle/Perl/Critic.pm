@@ -1,8 +1,8 @@
 #######################################################################
 #      $URL: http://perlcritic.tigris.org/svn/perlcritic/trunk/Bundle-Perl-Critic/lib/Bundle/Perl/Critic.pm $
-#     $Date: 2007-07-30 11:45:21 -0500 (Mon, 30 Jul 2007) $
+#     $Date: 2007-08-25 23:09:47 -0700 (Sat, 25 Aug 2007) $
 #   $Author: clonezone $
-# $Revision: 1798 $
+# $Revision: 1849 $
 #        ex: set ts=8 sts=4 sw=4 expandtab :
 ########################################################################
 
@@ -11,7 +11,7 @@ package Bundle::Perl::Critic;
 use strict;
 use warnings;
 
-our $VERSION = 1.00;
+our $VERSION = 1.01;
 
 1;
 
@@ -37,6 +37,10 @@ This is a CPAN bundle file for installing L<Perl::Critic>,
 L<Test::Perl::Critic>, <criticism> and several Policy plugin modules,
 along with all their dependencies.
 
+In addition to the distributions included below, there is
+L<Perl::Critic::Dynamic>.  This is not incorporated here because it
+actually compiles code and is therefore potentially dangerous.
+
 =head1 CONTENTS
 
     Perl::Critic
@@ -50,6 +54,8 @@ along with all their dependencies.
     Perl::Critic::Bangs
 
     Perl::Critic::Lax
+
+    Perl::Critic::Nits
 
     Perl::Critic::StricterSubs
 
