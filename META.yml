@@ -1,16 +1,20 @@
 ---
 name: Bundle-Perl-Critic
-version: 1.01
+version: 1.020
 author:
   - 'Jeffrey Thalhammer <thaljef@cpan.org>'
-abstract: A CPAN bundle for Perl::Critic and related modules
+abstract: A CPAN bundle for Perl::Critic and related modules.
 license: perl
 resources:
+  MailingList: http://perlcritic.tigris.org/servlets/SummarizeList?listName=users
+  Repository: http://perlcritic.tigris.org/svn/perlcritic/trunk/Bundle-Perl-Critic/
+  homepage: http://perlcritic.com
   license: http://dev.perl.org/licenses/
+dynamic_config: 1
 provides:
   Bundle::Perl::Critic:
     file: lib/Bundle/Perl/Critic.pm
-    version: 1.01
+    version: 1.020
 generated_by: Module::Build version 0.2808
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.2.html

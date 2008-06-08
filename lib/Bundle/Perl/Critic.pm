@@ -1,8 +1,8 @@
 #######################################################################
 #      $URL: http://perlcritic.tigris.org/svn/perlcritic/trunk/Bundle-Perl-Critic/lib/Bundle/Perl/Critic.pm $
-#     $Date: 2007-08-25 23:09:47 -0700 (Sat, 25 Aug 2007) $
+#     $Date: 2008-04-20 21:10:25 -0700 (Sun, 20 Apr 2008) $
 #   $Author: clonezone $
-# $Revision: 1849 $
+# $Revision: 2271 $
 #        ex: set ts=8 sts=4 sw=4 expandtab :
 ########################################################################
 
@@ -11,7 +11,7 @@ package Bundle::Perl::Critic;
 use strict;
 use warnings;
 
-our $VERSION = 1.01;
+our $VERSION = '1.020';
 
 1;
 
@@ -41,6 +41,11 @@ In addition to the distributions included below, there is
 L<Perl::Critic::Dynamic>.  This is not incorporated here because it
 actually compiles code and is therefore potentially dangerous.
 
+B<WARNING>: This bundle will install Policies that directly conflict
+with each other.  If you do not use a F<.perlcriticrc> file, and your
+severity is set high enough, there is no way for your code to not have
+violations.
+
 =head1 CONTENTS
 
     Perl::Critic
@@ -52,6 +57,8 @@ actually compiles code and is therefore potentially dangerous.
     Perl::Critic::More
 
     Perl::Critic::Bangs
+
+    Perl::Critic::Compatibility
 
     Perl::Critic::Lax
 

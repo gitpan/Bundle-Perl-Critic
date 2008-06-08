@@ -14,6 +14,10 @@ DESCRIPTION
     Perl::Critic::Dynamic. This is not incorporated here because it actually
     compiles code and is therefore potentially dangerous.
 
+    WARNING: This bundle will install Policies that directly conflict with
+    each other. If you do not use a .perlcriticrc file, and your severity is
+    set high enough, there is no way for your code to not have violations.
+
 CONTENTS
         Perl::Critic
 
@@ -24,6 +28,8 @@ CONTENTS
         Perl::Critic::More
 
         Perl::Critic::Bangs
+
+        Perl::Critic::Compatibility
 
         Perl::Critic::Lax
 
