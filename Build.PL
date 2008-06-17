@@ -1,9 +1,11 @@
 #######################################################################
 #      $URL: http://perlcritic.tigris.org/svn/perlcritic/trunk/Bundle-Perl-Critic/Build.PL $
-#     $Date: 2008-05-18 18:40:27 -0500 (Sun, 18 May 2008) $
+#     $Date: 2008-06-17 14:27:21 -0500 (Tue, 17 Jun 2008) $
 #   $Author: clonezone $
-# $Revision: 2366 $
+# $Revision: 2450 $
 ########################################################################
+
+use 5.006001;
 
 use strict;
 use warnings;

@@ -5,6 +5,15 @@
 # $Revision: 1912 $
 ########################################################################
 
+[1.021] Released on 2008-06-17
+
+    "use 5.006001" in Makefile.PL and Build.PL.
+
+[1.020] Released on 2008-06-07
+
+     Added new Perl-Critic modules:
+
+     * Perl::Critic::Compatibility
 
 [1.01] Released on 2007-09-15
 

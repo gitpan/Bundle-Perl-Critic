@@ -8,10 +8,12 @@
 
 package Bundle::Perl::Critic;
 
+use 5.006001;
+
 use strict;
 use warnings;
 
-our $VERSION = '1.020';
+our $VERSION = '1.021';
 
 1;
 
