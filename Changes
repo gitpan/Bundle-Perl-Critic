@@ -1,9 +1,16 @@
 #######################################################################
 #      $URL: http://perlcritic.tigris.org/svn/perlcritic/trunk/Bundle-Perl-Critic/Changes $
-#     $Date: 2007-09-15 23:14:23 -0500 (Sat, 15 Sep 2007) $
+#     $Date: 2008-07-06 06:56:15 -0500 (Sun, 06 Jul 2008) $
 #   $Author: clonezone $
-# $Revision: 1912 $
+# $Revision: 2498 $
 ########################################################################
+
+[1.022] Released on 2008-07-06
+
+     Added new Perl-Critic modules:
+
+     * Perl::Critic::PetPeeves::JTRAMMELL
+     * Perl::Critic::Pulp
 
 [1.021] Released on 2008-06-17
 

@@ -1,6 +1,6 @@
 ---
 name: Bundle-Perl-Critic
-version: 1.021
+version: 1.022
 author:
   - 'Jeffrey Thalhammer <thaljef@cpan.org>'
 abstract: A CPAN bundle for Perl::Critic and related modules.
@@ -14,7 +14,7 @@ dynamic_config: 1
 provides:
   Bundle::Perl::Critic:
     file: lib/Bundle/Perl/Critic.pm
-    version: 1.021
+    version: 1.022
 generated_by: Module::Build version 0.280801
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.2.html

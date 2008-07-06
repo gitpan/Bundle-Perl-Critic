@@ -35,6 +35,10 @@ CONTENTS
 
         Perl::Critic::Nits
 
+        Perl::Critic::PetPeeves::JTRAMMELL
+
+        Perl::Critic::Pulp
+
         Perl::Critic::StricterSubs
 
         Perl::Critic::Swift

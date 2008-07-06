@@ -1,8 +1,8 @@
 #######################################################################
 #      $URL: http://perlcritic.tigris.org/svn/perlcritic/trunk/Bundle-Perl-Critic/lib/Bundle/Perl/Critic.pm $
-#     $Date: 2008-04-20 21:10:25 -0700 (Sun, 20 Apr 2008) $
+#     $Date: 2008-07-06 06:56:15 -0500 (Sun, 06 Jul 2008) $
 #   $Author: clonezone $
-# $Revision: 2271 $
+# $Revision: 2498 $
 #        ex: set ts=8 sts=4 sw=4 expandtab :
 ########################################################################
 
@@ -13,7 +13,7 @@ use 5.006001;
 use strict;
 use warnings;
 
-our $VERSION = '1.021';
+our $VERSION = '1.022';
 
 1;
 
@@ -65,6 +65,10 @@ violations.
     Perl::Critic::Lax
 
     Perl::Critic::Nits
+
+    Perl::Critic::PetPeeves::JTRAMMELL
+
+    Perl::Critic::Pulp
 
     Perl::Critic::StricterSubs
 
