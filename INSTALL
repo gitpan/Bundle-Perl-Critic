@@ -1,8 +1,8 @@
 ###############################################################################
 #      $URL: http://perlcritic.tigris.org/svn/perlcritic/trunk/Bundle-Perl-Critic/INSTALL $
-#     $Date: 2007-07-10 01:42:15 -0500 (Tue, 10 Jul 2007) $
-#   $Author: thaljef $
-# $Revision: 1753 $
+#     $Date: 2008-08-11 11:28:42 -0500 (Mon, 11 Aug 2008) $
+#   $Author: clonezone $
+# $Revision: 2657 $
 #        ex: set ts=8 sts=4 sw=4 expandtab :
 ##############################################################################
 
@@ -12,4 +12,3 @@ magical list of modules that the CPAN.pm utility knows how to deal
 with.  To install, give this command:
 
   perl -MCPAN -e 'install Bundle::Perl::Critic'
-

@@ -1,8 +1,8 @@
 #######################################################################
 #      $URL: http://perlcritic.tigris.org/svn/perlcritic/trunk/Bundle-Perl-Critic/lib/Bundle/Perl/Critic.pm $
-#     $Date: 2008-07-06 06:56:15 -0500 (Sun, 06 Jul 2008) $
+#     $Date: 2008-08-11 11:28:42 -0500 (Mon, 11 Aug 2008) $
 #   $Author: clonezone $
-# $Revision: 2498 $
+# $Revision: 2657 $
 #        ex: set ts=8 sts=4 sw=4 expandtab :
 ########################################################################
 
@@ -13,7 +13,7 @@ use 5.006001;
 use strict;
 use warnings;
 
-our $VERSION = '1.022';
+our $VERSION = '1.023';
 
 1;
 
@@ -70,6 +70,8 @@ violations.
 
     Perl::Critic::Pulp
 
+    Perl::Critic::Storable
+
     Perl::Critic::StricterSubs
 
     Perl::Critic::Swift
@@ -84,14 +86,10 @@ Jeffrey Ryan Thalhammer <thaljef@cpan.org>
 
 =head1 COPYRIGHT
 
-Copyright (c) 2005-2007 Jeffrey Ryan Thalhammer.  All rights reserved.
+Copyright (c) 2005-2008 Jeffrey Ryan Thalhammer.  All rights reserved.
 
 This program is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself.  The full text of this license
 can be found in the LICENSE file included with this module.
-=head1 COPYRIGHT AND LICENSE
 
 =cut
-
-
-
